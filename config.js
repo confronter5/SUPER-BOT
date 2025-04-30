@@ -2,13 +2,11 @@ import {watchFile, unwatchFile} from 'fs';
 import chalk from 'chalk';
 import {fileURLToPath} from 'url';
 import fs from 'fs'; 
-import cheerio from 'cheerio';
-import fetch from 'node-fetch';
-import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.botnumber = "254111728536"
 global.confirmcode = ""
+global.authFile = `BumbleSession`;
 
 global.owner = [
   ['254794597254', '👑 𝐒𝐔𝐏𝐄𝐑 𝐁𝐎𝐓 𝐂𝐑𝐄𝐀𝐓𝐎𝐑👑', true],
